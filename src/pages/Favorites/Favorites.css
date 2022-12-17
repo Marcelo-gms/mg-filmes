@@ -1,0 +1,46 @@
+.favorites-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.favorites-container h1{
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.no-favorites{
+  text-align: center;
+  font-size: 2em;
+  color:#FFF;
+}
+
+.list-favorites{
+  list-style: none;
+  display: flex;
+  gap: 1em;
+  flex-wrap:wrap;
+  justify-content:center;
+
+}
+
+.item-list-favorites {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+   min-width: 200px;
+   border: 1px solid #808080;
+   padding: 1em;
+   border-radius: 5px;
+}
+
+.item-list-favorites span{
+  margin: 1em auto;
+}
+
+.item-links-container{
+  display: flex;
+  column-gap: 1em;
+}

@@ -1,0 +1,45 @@
+.home {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.loading {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.movie {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  min-width: 300px;
+  margin: 1em auto;
+  justify-content: center;
+  align-items: center;
+}
+.movie h2 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 1.8em;
+  margin-bottom: 0.2em;
+}
+
+.movie img {
+  width: 100%;
+  border-radius: 5px 5px 0px 0px;
+  object-fit: cover;
+}
+
+.movie a {
+  width: 100%;
+  text-align: center;
+  padding: 0.5em 0;
+  background-color: #6b4ee6;
+  color: white;
+  border-radius: 0px 0px 5px 5px;
+  font-size: 1.3em;
+}

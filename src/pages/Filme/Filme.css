@@ -1,0 +1,52 @@
+.container-movie {
+  width: 100%;
+}
+
+.container-description {
+  width: 70%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-description h1 {
+  width: 100%;
+  padding: 0.3em;
+}
+
+.container-description img {
+  width: 800px;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.container-description h2 {
+  font-size: 1.5em;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  color: #FFF;
+  margin-top: 0.5em;
+}
+.container-description p {
+  width: 100%;
+  margin-left: 1em;
+  font-size: 1.5em;
+  margin-bottom: .5em;
+  color: rgb(201, 196, 196);
+}
+
+.container-buttons {
+  display: flex;
+  justify-content: center;
+  column-gap: 1em;
+  margin-bottom: 1em;
+}
+
+.container-buttons button {
+  font-size: 1.2em;
+  cursor: pointer;
+}
